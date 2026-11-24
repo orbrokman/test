@@ -1,0 +1,11 @@
+project_id         = "your-gcp-project-id"
+region             = "us-central1"
+environment        = "staging"
+service_name       = "sentinel-sre-agent"
+container_image    = "us-central1-docker.pkg.dev/your-gcp-project-id/sentinel-sre-agent/sentinel-sre-agent:latest"
+fast_model         = "gemini-2.5-flash"
+reasoning_model    = "gemini-2.5-pro"
+bq_dataset_id      = "sentinel_sre_analytics"
+enable_cloud_sql   = true
+min_instance_count = 0
+max_instance_count = 10
