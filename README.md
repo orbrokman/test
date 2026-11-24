@@ -86,7 +86,7 @@ Every criterion of the **AgentOps Code Review Matrix** is implemented as first-c
 ### 1. Install Dependencies
 
 ```bash
-git clone https://github.com/orbrokman/sentinel-sre-agent.git
+git clone https://github.com/orbrokman/test.git sentinel-sre-agent
 cd sentinel-sre-agent
 cp .env.example .env
 
